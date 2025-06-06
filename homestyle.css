@@ -118,4 +118,8 @@ body {
     .nav-link:hover {
         border-radius: 100px;
     }
+    .nav-item {
+        width: 0;
+        place-items: center;
+    }
 }
