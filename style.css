@@ -78,3 +78,18 @@ p {
 .gallery:hover {
     border: 1px solid var(--bg-primary);
 }
+
+@media screen and (max-width: 600px) {
+    .normal {
+        width: 100%;
+        text-align: left;
+    }
+    p {
+        font-size: 20px;
+        margin: 40px 20px;
+    }
+    h1 {
+        font-size: 30px;
+        margin: 40px 20px;
+    }
+}
