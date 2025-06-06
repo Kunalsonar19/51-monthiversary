@@ -101,13 +101,21 @@ body {
 }
 @media screen and (max-width: 600px) {
     .navbar {
-        background: rgba(27, 67, 50, 0.6);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border-radius: 0 20px 20px 0;
-        border: 1px solid rgba(27, 67, 50, 0.2);
+        border-radius: 0 0px 20px 20px;
+        height: auto;
+        width: 100%;
     }
-    body{
-        back
+    .navbar:hover {
+        width: 100%;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar:hover .link-text {
+        display: none;
+    }
+    .nav-link:hover {
+        border-radius: 100px;
     }
 }
